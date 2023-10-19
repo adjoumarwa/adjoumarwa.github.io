@@ -1,0 +1,7 @@
+.carousel-inner img{
+    width: 30%;
+    height: 30%;
+}
+.nav-tabs li{
+    background-color: rgb(123, 255, 0);
+}

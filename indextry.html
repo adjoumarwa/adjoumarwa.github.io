@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>boostrap</title>
+        <link rel="stylesheet" href="/home/ali/mywebsite/indextry.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+        
+    </head>
+    <body>
+        <div class="btn-group">
+            <button>Button</button>
+            <button class="btn"> basic button</button>
+            <button class="btn btn-info">info</button>
+     <button class="btn btn-success">secuss</button>
+            <button class="btn btn-success btn-block btn-lg active">block</button>
+        </div>
+        <br>
+
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="500">
+            <ul class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0"></li>
+                <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ul>
+        
+        <div class="carousel-inner">
+            <div class="carousel-item ">
+                <img src="/home/ali/mywebsite/pictere/si1.png" alt="" width="50" height="50">
+            </div>
+            <div class="carousel-item active">
+                    <img src="/home/ali/mywebsite/pictere/si1.png" alt="" width="50" height="50">
+            </div>
+            <div class="carousel-item">
+                    <img src="/home/ali/mywebsite/pictere/si1.png" alt="" width="50" height="50">
+            </div>
+        </div>
+        
+            <a  class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" data-slide="next" >
+                <span class="carousel-control-next-icon"></span>
+            </a>
+    </div>
+    <!--collapse-->
+    <div class="container mt-3">
+        <button class="btn btn-success" data-toggle="collapse" data-target="#demo">Simple collapsible</button>
+        <div id="demo" class="collapse">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni soluta eligendi ut tenetur impedit, incidunt unde nesciunt vel voluptatem ullam excepturi dolorem assumenda omnis accusamus nam maiores at? Consectetur, enim?
+        </div>
+    </div>
+    <!--dropdown-menu-->
+    <div class="container mt-3">   <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+        <div class="dropdown">
+            <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" >dropdown button
+
+            </button>
+            <div class="dropdown-menu">
+                <h5 class="dropdown-header">My header 1</h5>
+                <a class="dropdown-item" href="#">link 1</a>
+                <a class="dropdown-item" href="#">link 2</a>
+                <a class="dropdown-item" href="#">link 3</a>
+                <h5 class="dropdown-header">My header 2</h5>
+                <a class="dropdown-item" href="#">link 4</a>
+                <a class="dropdown-item" href="#">link 5</a>
+                <a class="dropdown-item" href="#">link 6</a>
+            </div>
+        </div>
+    </div>
+    <!--model-->
+    <div class="container mt-3"> 
+        <button type="button" class="btn btn-success dropdown-toggle" data-toggle="modal" data-target="#myModal" >
+        open modal    
+        </button>
+        <div class="modal fade" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Modal heading</h4>
+                        <button type="button" class="close" data-dismiss="modal">x
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        modal-body
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">
+                        Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--navbar-->
+    <div class="container mt-3">
+        <ul class="nav nav-tabs nav-justified flex-column">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 3</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 4</a>
+            </li>
+
+        </ul>
+    </div>
+    <!--scrollspy-->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="#section1">section 1</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#section2">section 2</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#section3">section 3</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">section 4</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#section41">link 1</a>
+                <a class="dropdown-item" href="#section42">link 2</a>
+            </div>
+        </li>
+    </ul>
+    </nav>
+    <div id="section1" class="container-fluid bg-success" style="padding-top:70px; padding: buttom 70px;">
+        <h1>Section 1</h1>
+        <p> try to scrol this section and look at the navigation bar while scrolling!try to scrol this section and look at the navigation bar while scrolling</p>
+        <p> try to scrol this section and look at the navigation bar while scrolling!try to scrol this section and look at the navigation bar while scrolling</p>
+    </div>
+    <div id="section2" class="container-fluid bg-warning" style="padding-top:70px; padding: buttom 70px;">
+        <h1>Section 2</h1>
+        <p> try to scrol this section and look at the navigation bar while scrolling!try to scrol this section and look at the navigation bar while scrolling</p>
+        <p> try to scrol this section and look at the navigation bar while scrolling!try to scrol this section and look at the navigation bar while scrolling</p>
+    </div>
+    <div id="section3" class="container-fluid bg-secondary" style="padding-top:70px; padding: buttom 70px;">
+        <h1>Section 3</h1>
+        <p> try to scrol this section and look at the navigation bar while scrolling!try to scrol this section and look at the navigation bar while scrolling</p>
+        <p> try to scrol this section and look at the navigation bar while scrolling!try to scrol this section and look at the navigation bar while scrolling</p>
+    </div>
+    <div id="section41" class="container-fluid bg-danger" style="padding-top:70px; padding: buttom 70px;">
+        <h1>Section 41</h1>
+        <p> try to scrol this section and look at the navigation bar while scrolling!try to scrol this section and look at the navigation bar while scrolling</p>
+        <p> try to scrol this section and look at the navigation bar while scrolling!try to scrol this section and look at the navigation bar while scrolling</p>
+    </div>
+    <div id="section42" class="container-fluid bg-info" style="padding-top:70px; padding: buttom 70px;">
+        <h1>Section 42</h1>
+        <p> try to scrol this section and look at the navigation bar while scrolling!try to scrol this section and look at the navigation bar while scrolling</p>
+        <p> try to scrol this section and look at the navigation bar while scrolling!try to scrol this section and look at the navigation bar while scrolling</p>
+    </div>
+    <!--table-->
+    <div class="container">
+        <table class="table table-border table-hover table-success">
+            <thead>
+                <tr >
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="table-secondary">
+                    <td>Rick</td>
+                    <td>Grimz</td>
+                    <td>rick@emzil.com</td>
+                </tr>
+                <tr class="table-info">
+                    <td>Lucille</td>
+                    <td>luci</td>
+                    <td>luci@Email.com</td>
+                </tr>
+                <tr class="table-success">
+                    <td>Ricardo</td>
+                    <td>martinez</td>
+                    <td>Ricardo@emzil.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!--topoghraphi-->
+    <div>
+        <h1 class="display-1"> display-1</h1>
+        <h1 class="display-2"> display-2</h1>
+        <h1 class="display-3"> display-3</h1>
+        <h1 class="display-4"> display-4</h1>
+    </div>
+    <!--alert-->
+    <div class="container m-3">
+        <div class="alert alert-success">
+            <strong>Success!</strong> this alert box could indicate a seccessful or <a href="#" class="alert-link">read this message</a> positive action.
+        </div>
+        <div class="alert alert-success alert-dismissible">
+            <button type="button" class="close" data-dismiss="alert">x</button>
+            <strong>Success! </strong> this alert box could indicate a seccessful or <a href="#" class="alert-link">read this message</a> positive action.
+        </div>
+    </div>
+    <!--budges prograss bars spine-->
+    <div  class="container m-3"> 
+        <span class="badge badge-primary ">PRIMARY</span>
+        <span class="badge badge-pill badge-primary">primary</span>
+        <button type="button" class="btn btn-primary">message <span class="badge badge-light">4</span></button>
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped bg-seccess" style="width: 20%;">20%</div>
+    </div>
+    <div class="progress">
+        <div class="progress-bar bg-success" style="width: 40%;">40%</div>
+    </div>    
+        <div class="progress">
+        <div class="progress-bar bg-danger" style="width: 40%;">40%</div>
+    
+        <div class="progress-bar bg-warning" style="width: 50%;">50%</div>
+    
+        <div class="progress-bar bg-seccess" style="width: 70%;">70%</div>
+    </div>
+    
+    <div class="spinner-border">  </div>
+    <div class="spinner-border text-success">  </div>
+    <div class="spinner-grow text-warning"></div>
+    <div class="spinner-border text-success spinner-border-sm">  </div>
+    <button class="btn btn-primary">
+    <div class="spinner-border spinner-border-sm"></div>
+    Loading</button>
+    </div>
+    <!--pagination breadcrumb tartib page-->
+    <div>
+    <ul class="pagination justify-content-center" style="margin: 20px 0;">
+        <li class="page-item active"><a class="page-link" href="#">Previous</a>
+        </li>
+        <li class="page-item "><a class="page-link" href="#">1</a></li>
+        <li class="page-item disabled"><a class="page-link" href="#">2</a></li>
+        <li class="page-item "><a class="page-link" href="#">3</a></li>
+        <li class="page-item "><a class="page-link" href="#">Next</a>
+        </li>
+    </ul>
+    <ul class="breadcrumb" style="margin: 20px 0;">
+        <li class="breadcrumb-item"><a href="#">Photos</a></li>
+        <li class="breadcrumb-item"><a href="#">Summer2017/a></li>
+        <li class="breadcrumb-item"><a href="#">japan</a></li>
+        <li class="breadcrumb-item">Rome</li>
+ 
+    </ul>
+    </div>
+    <!--cards-->
+    <div class="container m-3">
+        <div class="card">
+            <div class="card-body">Basic card</div>
+        </div>
+        <br>
+        <div class="card bg-primary text-white">
+            <div class="card-body">primary card</div>
+        </div>
+        <div class="card">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h4 class="card-title">card title</h4>
+                <p class="card-text">some example text.</p>
+                <a href="#" class="card-link">card link</a>
+                <a href="#" class="card-link">another link</a>
+            </div>
+            <div class="card-footer">footer</div>
+        </div><br>
+        <div class="card" style="width: 300px;">
+            <img src="/home/ali/mywebsite/pictere/si1.png" alt="pic" class="card-img-top" style="height: 420px;width:100%">
+            <div class="card-img-overlay">
+                <h4 class="card-title">Ricardo</h4>
+                <p>Some example text some example text .rick is a stupid person .</p>
+                <a href="#" class="btn btn-primary">See Profile</a>
+            </div>
+        </div>
+        <div class="card-deck">
+            <div class="card-body text-center"> 
+            <p class="card bg-warning" >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero animi at reiciendis corporis labore deserunt, reprehenderit laudantium? Animi itaque tempora quae debitis commodi. Praesentium, delectus deleniti dolores nihil esse quam!</p>
+            </div>
+        </div>
+    </div>
+    <!--form-->
+    <div  class="container m-3">
+        <form class="form-inline">
+            <label for="">Email address :</label>
+            <input type="email" class="form-control">
+            <label for="">Password:</label>
+            <input type="password" class="form-control">
+            <div class="form-check">
+                <label for="" class="form-check-label">
+                    <input type="checkbox" class="form-check-input" >Remember me
+                </label>
+            </div>
+            <button type="submit" class="btn btn-primary">submit</button>
+        </form>
+    </div>
+    <div>
+        <form action="" class="was-validated">
+            <div class="form-group">
+                <label for="">Username</label>
+                <input type="text" name="" id="" class="form-control" placeholder="Enter username" required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field</div>
+            </div>
+            <div class="form-group">
+                <label for="">Password</label>
+                <input type="password" name="" class="form-control" placeholder="Enter password" required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field</div>
+            </div>
+            <div class="form-group form-check">
+                <label for="" class="form-check-label">
+                    <input type="checkbox" name="" class="form-check-input" name="remember" required>agree 
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Check this checkbox to continue</div>
+             
+                </label>
+            </div>
+            <button type="submit" class="btn btn-primary">
+                Submit
+            </button>
+        </form>
+    </div>
+    <!--greed-->
+    <div class="container-fluid">
+        <header class="bg-secondary text-white" style="text-align: center; font-size :45px;" >
+            My Header
+        </header>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark" style="width: 100%; text-align :center">
+            <ul class="navbar-nav" style="width: 100%;">
+                <li class="navbar-item" style="width: 25%;">
+                    <a class="nav-link" href="#">Link 1</a>
+                </li>
+                <li class="navbar-item" style="width: 25%;">
+                    <a class="nav-link" href="#">Link 2</a>
+                </li>
+                <li class="navbar-item" style="width: 25%;">
+                    <a class="nav-link" href="#">Link 3</a>
+                </li>
+                <li class="navbar-item" style="width: 25%;">
+                    <a class="jhjnav-link" href="#">Link 4</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="row bg-info text-white" style="padding: 8px;">
+            <div class="col-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsam saepe optio ut ipsa repellendus animi libero at sit vel? Odit exercitationem earum facere, cum quas beatae vel atque doloremque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quod corrupti ipsa ut quibusdam ullam aut? Ut recusandae dolorem rem consequatur odio ratione explicabo voluptatum, modi beatae quasi quam quaerat?. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti labore culpa reiciendis, distinctio atque veritatis voluptatem possimus obcaecati assumenda? Perferendis nulla pariatur laborum impedit reiciendis adipisci quod earum totam ea.</div>
+            <div class="col-sm" style="border-right:2px solid #aaa ;border-left:2px solid #aaa">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium qui minus consectetur, mollitia placeat dignissimos maiores distinctio. Dolores, excepturi quis culpa ab laudantium, fugit odio dolorum dignissimos nesciunt necessitatibus sequi!Lorem . Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem enim modi tempora facilis odio inventore placeat itaque tenetur dolorem aliquid voluptas, rem quod laborum suscipit esse? Aliquam error ullam sapiente.</div>
+            <div class="col-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat totam harum, architecto facere labore fugiat adipisci sit veritatis itaque nostrum reprehenderit sint debitis odit, ab iure esse hic ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum deserunt esse ratione, molestias magnam ullam possimus perspiciatis sit unde id cumque. Assumenda rem cupiditate velit dolor officiis quae doloribus accusantium!. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem veniam eveniet consequatur excepturi quas earum. Recusandae nostrum excepturi natus doloremque! Quisquam nihil ut ad in culpa porro fuga veritatis ea.</div>
+        </div>
+        <footer class="bg-secondary text-white " style="text-align: center; font-size: 45px;">
+            Footer
+        </footer>
+    </div>
+    </body>
+</html>

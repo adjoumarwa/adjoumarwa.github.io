@@ -1,0 +1,78 @@
+header{
+    background-color: rgb(255, 230, 0);
+    height: 80px;
+    text-align: center;
+}
+nav{
+    background-color: rgb(0, 0, 0);
+    height: 70px;
+    display: inline-block;
+    text-decoration: none;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    color: white;
+}
+
+section{
+    justify-content: space-between;
+    display: flex;
+    background-color: yellow;
+    height: 300px;
+    width: 100%;
+}
+footer{   
+    background-color:black;
+    height: 50px;
+    text-align: center;
+    color: wheat;
+    width: 99%;
+    position: absolute;
+   
+}
+ 
+.p1{
+  background-color: black;
+    width: 50%;
+   
+}
+.p1 a{
+    color: white;
+    text-decoration: none;
+}
+.p2 a{
+    color: white;
+    text-decoration: none;
+}
+.p2{
+    background-color: rgb(47, 104, 211);
+    width: 50%;
+    color: white;
+}
+.p3{
+    background-color: rgb(47, 104, 211);
+    width: 25%;
+
+}
+.p4{
+    background-color: yellow;
+    width: 75%;
+}
+.t{
+    border-collapse: collapse;
+    width: 80px;
+    margin: 40px;
+}
+.t td,td{
+   
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    text-align: center;
+   
+   
+}
+.a{
+    margin: 20px;
+
+}
