@@ -1,0 +1,156 @@
+.diva{
+    position: fixed;
+    width: 100%;
+    border-bottom: white 1px solid;
+    box-shadow: 4px 2px 10px rgba(179, 176, 176, 0.2);
+}
+header{
+    background-color:#fff5cb;
+    text-align: center;
+    height: 40px;   
+    /*
+    position: fixed;*/
+    width: 100%;
+    padding-bottom: 10px;
+}
+header p{
+   
+    padding: 10px;
+    background-color:#fff5cb;
+}
+.navbar-brand{
+    position: center;
+}
+.nav-lfte  {
+   background-color: white;
+   height: 70px;
+   width: 100%;
+  /* position:fixed;*/
+     display: flex;
+     
+    justify-content: space-between;
+}
+
+.navbar-brand img{
+    padding: none;
+    width: 30%;
+    margin: none;
+}
+.nv-lft{
+    font-size: small;
+    
+}
+
+.carousel-inner img{
+    width: 60%;
+    height: 50%;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+ img{
+ display: block;
+   margin-top: 0;
+   margin-left: auto;
+   margin-right: auto;
+   width: 30%;
+}
+.nav>li {
+    width: 100%;
+    display: inline-block;
+    white-space: nowrap;
+    
+  }
+  .navbar-nav > li{
+    padding-left:30px;
+    padding-right:30px;
+    display: flex;
+    
+  }
+  .left{
+   
+      left:10%;
+      transform: translateX(-20%);
+      color: black;
+      padding-right: 0;
+  }
+
+.divb{
+    padding-top: 150px;
+    text-align: center;
+}
+.nav-link{
+    color:black;
+    font-size: medium;
+    white-space: nowrap;/*two force element two stay in the line*/
+}
+.nav-link:focus,.nav-link:hover{
+    color: green;
+}
+.divb1 .navbar-nav{
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    justify-content: center;
+ }
+.cart{
+   
+    justify-content: space-between;
+
+}
+.card-group{
+   
+    justify-content: space-around;
+}
+#blends{
+    padding: 30px;
+}
+.card img{
+    
+}
+.card{
+    width: 50px;
+    height: 20%;
+    white-space: nowrap;
+}
+.card-body h4{
+    white-space: nowrap;
+}
+.cart a,.matcha a{
+    color: black;
+    text-decoration: none;
+}
+.cart a:focus,.cart a:hover,.matcha a:active,.matcha a:focus,.matcha a:hover,.matcha a:active{
+    color: green;
+    text-decoration: none;
+}
+.matcha{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    margin: 20px;
+}
+.matcha img{
+   
+}
+.price button{
+    white-space: nowrap;
+    height: 40px;
+   
+  
+    justify-content: center;
+    color: white;
+    text-align: center;
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 15px;
+}
+.img-c{
+    border: 1px gray solid;
+    border-radius: 5px;
+    height: 150px;
+    background-color: gray;
+}
+

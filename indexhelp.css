@@ -1,16 +1,26 @@
 *{
     text-decoration: none;
 }
+nav{
+  height: 130px;
+  width: 100%;
+}
+
+
 nav ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(106, 83, 240);
+    background-color: #B8C1EC;
     text-decoration: none;
     position: relative;
+    width: 100%;
   }
   nav li{
+    width: 150px;
+    height: 60px;
+    transition: .5s;
     list-style:circle;
     display: block;
     color: rgb(73, 76, 230);
@@ -20,9 +30,69 @@ nav ul{
     float: left;
     
    /* border-bottom-style: solid ;*/
-   border-bottom: 3px solid rgb(4, 0, 255);
+ 
    box-sizing: border-box;
   }
 nav li:hover{
-background-color: rgb(66, 66, 197);
+  background-color: #EEBBC3;
 }
+/*
+section a img{
+  margin: 20px;
+  padding: 20px;
+  width: 20%;
+  height: 250px;
+  gap: 20px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+section a img{
+  transform: scale(1.2);
+}*/
+img{
+  margin: 20px;
+  padding: 20px;
+  width: 20%;
+  height: 250px;
+  gap: 20px;
+  cursor: pointer;
+ transition: 0.5s;
+}
+img:hover{
+  transform: scale(1.1);
+}
+@media screen and(max40px) and (min10px) {
+  .body{
+      display: block;
+  }
+  .head{
+    display: block;
+  }
+}
+
+
+
+footer {
+ 
+  margin: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  position: relative;
+  padding: 80px;
+  bottom: 1px;
+}
+.ico{
+ font-size: 35px;
+ width: 60px;
+ position:relative;
+ 
+}
+.ico:hover{
+  
+  transform: scale(1.5); 
+}
+
+

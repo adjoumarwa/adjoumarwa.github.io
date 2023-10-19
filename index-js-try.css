@@ -1,0 +1,40 @@
+body{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f4f4;
+    line-height: 1.5em;
+}
+header{
+    background-color:#333;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    border-bottom: 4px #000 solid;
+   margin-bottom: 10px;
+}
+#container ,#container1,#container2,#container3{
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+#box{
+    background-color: black;
+    color: #fff;
+    width: 350px;
+    height: 120px;
+    text-align: center;
+    padding: 10px;
+}
+#box2{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+body{
+    height: 100vh;
+}
+.myClass{
+    color: rgb(255, 238, 0);
+    background-color: black;
+}

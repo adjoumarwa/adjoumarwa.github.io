@@ -1,16 +1,22 @@
 *{
     text-decoration: none;
 }
+nav{
+  height: 130px;
+}
 nav ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(106, 83, 240);
+    background-color: #B8C1EC;
     text-decoration: none;
     position: relative;
   }
   nav li{
+    width: 150px;
+    height: 60px;
+    transition: .5s;
     list-style:circle;
     display: block;
     color: rgb(73, 76, 230);
@@ -20,11 +26,10 @@ nav ul{
     float: left;
     
    /* border-bottom-style: solid ;*/
-   border-bottom: 3px solid rgb(4, 0, 255);
-   box-sizing: border-box;
+      box-sizing: border-box;
   }
 nav li:hover{
-background-color: rgb(66, 66, 197);
+  background-color: #EEBBC3;
 }
 
 
@@ -35,7 +40,7 @@ background-color: rgb(66, 66, 197);
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgb(106, 83, 240);
+    background-color: #B8C1EC;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -68,15 +73,25 @@ background-color: rgb(66, 66, 197);
     .sidenav a {font-size: 18px;}
   }
 section{
- 
-  background-color: #7e7fb1;
+    display: flex;
+ /*   justify-content: space-between;*/
+ background-color: #B8C1EC;
+
+  /*justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  position: relative;*/
 }
+
 .module{
+   
   border-collapse: collapse;
-   background-color: #7e7fb1;
+  background-color: rgb(146, 146, 253);
+  
    width: 1000px;
    margin: 50px;
-   
+  
   text-align: center;
   border-radius: 10px;
   
@@ -89,12 +104,12 @@ thead th{
   font-size: x-large;
   width: 80%;
   height: 60px;
-  background-color: #2427e9;
+  background-color: #7d7fe0;
 }
 
  th:hover{
   width: 80%;
-  background-color: #aa2909;
+  background-color: #c04627;
   font-size: 25px;
   border-radius: 15px;
   text-shadow: 0 0 1px rgb(255, 102, 0);
@@ -103,7 +118,7 @@ thead th{
   td:hover {
    width: 80%;
    cursor:context-menu;
-  background-color: #e93124;
+   background-color: #EEBBC3;
   font-size: 25px;
   text-shadow: 0 0 1px rgb(255, 102, 0);
   border-radius: 15px;
@@ -115,11 +130,60 @@ thead th{
   width: 80%;
 }
 */
-@media screen and (max40px) {
-  .body{
-      display: block;
+/*
+body{
+    float: left;
+}*/
+.menu{
+  background-color: #B8C1EC;
+    width: 30px;
+    height: 100vh;
+    padding: 15px;
+    list-style: none;
+    overflow: hidden;
+    float: left;
+   
+    transition: .5s;
+    left: 0;
+   
   }
+  .menu:hover{
+    width: 250px;
+  }
+  .menu ul{
+    list-style: none;
+   
+  }
+  .menu ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    transition: .5s;
+  padding-top: 10px;
+ 
+  }
+  .menu ul li a:hover{
+    background-color: gray;
+    
+  }
+  @media screen and (max-width: 300px) {
+    body {
+      width: 100%;
+      margin-top: 0;
+      display: block;
+    }
+  }
+
+  table{
+    width: 100%;
+    border-spacing: 10px;
+
 }
+
 footer {
  
   margin: 25px;
