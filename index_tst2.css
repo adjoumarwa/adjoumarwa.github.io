@@ -1,0 +1,19 @@
+header{
+    background-color: green;
+   
+    height: 50px;
+}
+nav{
+    background-color: blue;
+    padding: 10px;
+
+}
+section{
+background-color: brown;
+padding: 10px;
+margin: 15px;
+}
+footer{
+    background-color: yellow;
+    
+}

@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+
+}
+body{
+    background: #928cff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    flex-direction: column;
+    gap: 30px;
+}
+.inp{
+    width: 250px;
+    height: 30px;   
+}
+button{
+    width: 180px;
+    height: 30px;
+}

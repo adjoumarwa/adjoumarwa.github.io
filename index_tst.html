@@ -1,25 +1,49 @@
+<!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="test">
-    <title>une page d'essai</title>
-    <link rel="stylesheet" href="/home/ali/mywebsite/index_tst.css">
-</head>
-<body>
-    <h1><i>Voici mes notes</i></h1>
-   
-    <!--ceci un tableu--->
-    <table border="1">
-       <tr>
-           <td>Nom</td>
-           <td>Note</td>
-       </tr>
-        <tr>
-            <td>MonNom  </td>
-            <td> 15</td>
-        </tr>
-    </table>
-    <hr>
-    <a href="www.google.dz">Aller sur google</a>
-</body>
+    <head>
+    <meta charset="utf-8"/>
+    <meta name="description" content="Website. First year university majoring in Mathematics and Computer Science"/>
+    <title>formulaire</title>
+    <link rel="stylesheet" href="/home/ali/info_mar2/index_tst.css">
+    </head>
+    <body>
+        <h1>formulaire de Contact</h1>
+        <fieldset>
+            <legend>Vos coordonees</legend>
+            <label for="email" >Ur email:</label>
+            <input type="email" name="email">
+            <label for="">date naissanse:</label>
+            <input type="date" name="date">
+            <label for="pseudo">Votre pseudo:</label>
+            <input type="text" name="pseudo" id="">
+            <label for="tel">Num tel:</label>
+            <input type="tel" name="tel" id="">
+            <label for="password">ur password</label>
+            <input type="password" name="password">
+            <input type="color" name="color" id="">
+            <label for="color">ur favorite color</label>
+        </fieldset>
+        <fieldset>
+            <legend>Voutre souhait</legend>
+            <label for="choix">Faite un choix</label>
+            <input type="radio" name="radio" id="">
+            <label for="radio">celebre</label>
+            <input type="radio" name="radio" id="">
+            <label for="radio">Rich</label>
+            <input type="radio" name="radio" id="">
+            <label for="radio">Plus intelegent</label>
+            <input type="radio" name="radio" id=""><br>
+            <label for="radio">Autre ..</label>
+            <label for="txt">Si "Autre" preceses</label>
+            <textarea name="txt" id="" cols="30" rows="10"></textarea>
+            <label for="choose">Couchez aliment que vos manger:</label>
+            <input type="checkbox" name="choose" id="">
+            <label for="Ramen"></label><br>
+            <input type="checkbox" name="choose" id="">
+            <label for="Daifoku"></label><br>
+            <input type="checkbox" name="choose" id="">
+            <label for="Onegiri"></label>
+        </fieldset>
+        <input type="submit" name="envoye" id="" value="envoyes">
+    </body>
 </html>

@@ -1,0 +1,67 @@
+.a{
+    text-decoration: rgb(91, 217, 248);
+    /*text-decoration-color: red;*/
+    cursor: -webkit-grabbing;
+    color: rgb(83, 187, 14);
+    bottom: right;
+    position: top 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:x-large;
+    line-height: 50px;
+    margin: 20px;
+    position: top 2px;
+    border: hsl(248, 22%, 93%) 3px solid ;
+    border-radius: 25px;
+    padding-right: 50px;
+}
+.li{
+    background-color: grey;
+    display: inline;
+}  
+  a:hover{
+    background-color: rgb(0, 17, 255);
+    margin: 2px;
+}
+.imj{
+    background-image: url("/home/ali/info mar1/sitete.jpg");
+   
+    background-repeat:no-repeat ;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 1280px;
+     height: 1000px;
+   }
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(214, 215, 221);
+
+  }
+.li{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+    background-color: rgb(213, 213, 216);
+  }
+li:hover{
+    background-color: blue;
+}
+.aa{
+  text-decoration: none;
+  color: rgb(239, 239, 243);
+  font-weight: 900;
+  font-size: large;
+}
+aa:hover{
+  background-color: rgb(139, 14, 14);
+}
+@media screen and(max40px) {
+  .body{
+      display: block;
+  }
+}
